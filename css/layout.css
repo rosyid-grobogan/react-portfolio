@@ -35,13 +35,26 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.gif) no-repeat top center;
+  /* background: #161415 url(../images/header-bg.gif) no-repeat top center;
   background-size: cover !important;
-  -webkit-background-size: cover !important;
+  -webkit-background-size: cover !important; */
   text-align: center;
   overflow: hidden;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
-
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /* vertically center banner section */
 header:before {
   content: '';
@@ -70,7 +83,8 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em 'librebaskerville-regular', serif;
-  color: #a8a8a8;
+  /* color: #a8a8a8; */
+  color: #eee6e6;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -197,7 +211,8 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  /* color: #f06000; */
+  color: #ff7979;
 }
 
 /* ------------------------------------------------------------------ */
@@ -356,7 +371,18 @@ ul#nav li.current a {
 
   margin: 0;
   padding-right: 24px;
-  background: #313131;
+  /* background: #313131; */
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: inline-block;
   height: 42px;
   line-height: 42px;
@@ -700,7 +726,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url(../images/quote.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
@@ -709,6 +735,7 @@ call-to-action .button {
   min-height: 200px;
   width: 100%;
   overflow: hidden;
+  opacity: 0.7;
 }
 #testimonials .text-container {
   padding-top: 96px;
