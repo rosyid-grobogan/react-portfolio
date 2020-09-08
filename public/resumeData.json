@@ -1,10 +1,10 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "ReactJS Developer && Instructor @CleverProgrammer",
+    "name": "Rosyid Ridho",
+    "occupation": "Developer",
     "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
     "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
+    "bio": "My name is Rosyid, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "sonny@cleverprogrammer.com",
     "phone": "+44 12 345 6789",
@@ -19,22 +19,22 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://www.facebook.com/",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha/",
+        "url": "https://linkedin.com/in/rosyid-grobogan",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://www.instagram.com/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "http://github.com/sonnysangha",
+        "url": "https://github.com/rosyid-grobogan/",
         "className": "fa fa-github"
       }
     ]
@@ -65,27 +65,77 @@
     ],
     "skills": [
       {
+        "name": "Java",
+        "level": "75%"
+      },
+      {
+        "name": "PHP",
+        "level": "85%"
+      },
+      {
+        "name": "Laravel",
+        "level": "85%"
+      },
+      {
+        "name": "Spring Boot",
+        "level": "75%"
+      },
+      {
+        "name": "Dart",
+        "level": "86%"
+      },
+      {
+        "name": "Tailwind",
+        "level": "70%"
+      },
+
+      {
+        "name": "Bootstrap",
+        "level": "85%"
+      },
+      {
+        "name": "VueJS",
+        "level": "80%"
+      },
+      {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "65%"
       },
       {
         "name": "CSS",
-        "level": "95%"
+        "level": "85%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "65%"
+      },
+      {
+        "name": "MySQL",
+        "level": "80%"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "76%"
       },
       {
         "name": "Git",
-        "level": "60%"
+        "level": "75%"
       },
+      {
+        "name": "Swagger",
+        "level": "75%"
+      },
+      {
+        "name": "Postman",
+        "level": "75%"
+      },
+
       {
         "name": "Figma && Adobe XD",
         "level": "55%"
       },
       {
         "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
         "level": "80%"
       }
     ]

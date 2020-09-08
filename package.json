@@ -26,5 +26,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## 👇 WATCH THIS FIRST 👇 ## https://tinyurl.com/customizeReactPortfolio",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosyid-grobogan/react-portfolio.git"
+  },
+  "author": "Rosyid Grobogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosyid-grobogan/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/rosyid-grobogan/react-portfolio#readme"
 }
